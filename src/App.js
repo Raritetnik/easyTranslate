@@ -15,6 +15,7 @@ export default function App() {
       <Languages language={language} onLanguageChange={setLanguage} />
       <hr />
       <Translate text={text} language={language} />
+      <small>Utilisation de l'API: https://google-translate1.p.rapidapi.com </small>
     </div>
   );
 }
